@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <GetAllClassificationsResponse xmlns="http://www.watchfulsoftware.com/rw-admin-webservice">
+      <GetAllClassificationsResult>
+        <ErrorCode>NoError or UnknownError or RuleNotFound or NoRuleNameDefined or ClassificationNotFound or RuleHasNoConditions or RuleConditionUndefined or DefaultTextNotDefined or RuleMustApplyToAtLeastOneApplication or TextConditionNotWellDefined or FileSizeConditionNotWellDefined or FileSizeConditionIsNotNumber or FileDateConditionNotWellDefined or FileDateConditionIsNotEpoch or CurrentClassificationConditionIsNotNumber or CurrentClassificationNotWellDefined or WarnOrBlockRulesTextsNotWellDefined or GlobalProtectorRulesAllowChangeMustHaveDisclaimer or RuleIsNotManuallyChangeableButHasChangeDisclaimer or GenericDefaultRuleCannotBeOrdered or RuleOrderMustBeGreaterThanZero or RoleNotFound or RolesNotDefined or ClassificationsNotFound or RolesNotFound or RulesNotFound or DefaultRulesNotFound or EmailRulesNotFound or OfficeRulesNotFound or GlobalProtectorRulesNotFound or AttachmentPolicyNotWellDefined or PolicyNotWellDefined or NotAuthorized or RuleConditionValueInvalid or RuleConditionMetadataVariableInvalid or ConditionTypeMismatch</ErrorCode>
+        <ErrorMessage>string</ErrorMessage>
+        <Classifications>
+          <SClassification>
+            <ID>unsignedInt</ID>
+            <FullName>string</FullName>
+            <Name>string</Name>
+            <Acronym>string</Acronym>
+            <ConfidentialityOrder>unsignedInt</ConfidentialityOrder>
+            <ClassificationIsPublic>boolean</ClassificationIsPublic>
+            <ClassificationIsDNF>boolean</ClassificationIsDNF>
+            <ClassificationRequiresConfirmation>boolean</ClassificationRequiresConfirmation>
+            <ClassificationIsEnabled>boolean</ClassificationIsEnabled>
+            <ClassificationIsSyncronizedWithRMS>boolean</ClassificationIsSyncronizedWithRMS>
+            <ClassificationRmsGUID>string</ClassificationRmsGUID>
+            <ClassificationIsAvailableOffline>boolean</ClassificationIsAvailableOffline>
+            <NumberOfDaysClassificationIsAvailable>unsignedInt</NumberOfDaysClassificationIsAvailable>
+            <NewClassificationIDAppliedOnIta>int</NewClassificationIDAppliedOnIta>
+            <ItaOptionsInDays xsi:nil="true" />
+            <ClassificationColorIsCustom>boolean</ClassificationColorIsCustom>
+            <Color>string</Color>
+            <DescriptionGlobalizations xsi:nil="true" />
+            <Scope xsi:nil="true" />
+            <Company xsi:nil="true" />
+          </SClassification>
+          <SClassification>
+            <ID>unsignedInt</ID>
+            <FullName>string</FullName>
+            <Name>string</Name>
+            <Acronym>string</Acronym>
+            <ConfidentialityOrder>unsignedInt</ConfidentialityOrder>
+            <ClassificationIsPublic>boolean</ClassificationIsPublic>
+            <ClassificationIsDNF>boolean</ClassificationIsDNF>
+            <ClassificationRequiresConfirmation>boolean</ClassificationRequiresConfirmation>
+            <ClassificationIsEnabled>boolean</ClassificationIsEnabled>
+            <ClassificationIsSyncronizedWithRMS>boolean</ClassificationIsSyncronizedWithRMS>
+            <ClassificationRmsGUID>string</ClassificationRmsGUID>
+            <ClassificationIsAvailableOffline>boolean</ClassificationIsAvailableOffline>
+            <NumberOfDaysClassificationIsAvailable>unsignedInt</NumberOfDaysClassificationIsAvailable>
+            <NewClassificationIDAppliedOnIta>int</NewClassificationIDAppliedOnIta>
+            <ItaOptionsInDays xsi:nil="true" />
+            <ClassificationColorIsCustom>boolean</ClassificationColorIsCustom>
+            <Color>string</Color>
+            <DescriptionGlobalizations xsi:nil="true" />
+            <Scope xsi:nil="true" />
+            <Company xsi:nil="true" />
+          </SClassification>
+        </Classifications>
+      </GetAllClassificationsResult>
+    </GetAllClassificationsResponse>
+  </soap12:Body>
+</soap12:Envelope>
