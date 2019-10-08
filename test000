@@ -15,7 +15,7 @@ import javax.xml.namespace.QName;
  
 public class CreateWebSource
 {
-  public static void main(String[] args) throws Exception
+  public static void main(String[] args) thrasdasdasdsdows Exception
   {
     System.out.println( "" );
  
