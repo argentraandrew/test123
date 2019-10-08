@@ -1,4 +1,4 @@
-import oracle.search.admin.api.ws.client.AdminAPIRuntimeFault;
+asdadimport oracle.search.admin.api.ws.client.AdminAPIRuntimeFault;
 import oracle.search.admin.api.ws.client.AdminAPIRuntimeFault_Exception;
 import oracle.search.admin.api.ws.client.AdminKeyPair;
 import oracle.search.admin.api.ws.client.AdminPortType;
